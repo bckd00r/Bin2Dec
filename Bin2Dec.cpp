@@ -1,14 +1,12 @@
 #include <iostream>
 #include <cmath>
 
-using namespace std;
-
 int convertBinaryToDecimal(long long);
 
 int main()
 {
 	int binary;
-	std:cout << "Please enter binary: ";
+	cout << "Please enter binary: ";
 	cin >> binary;
     cout << "Converted from " << binary << " binary to " << convertBinaryToDecimal(binary) << " decimal";
 	return 0;
