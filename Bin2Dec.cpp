@@ -3,12 +3,14 @@
 
 int convertBinaryToDecimal(long long);
 
+using namespace std;
+
 int main()
 {
 	int binary;
 	cout << "Please enter binary: ";
 	cin >> binary;
-    cout << "Converted from " << binary << " binary to " << convertBinaryToDecimal(binary) << " decimal";
+    	cout << "Converted from " << binary << " binary to " << convertBinaryToDecimal(binary) << " decimal";
 	return 0;
 }
 
